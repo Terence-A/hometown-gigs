@@ -2,7 +2,10 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-6 bg-[#192428] shadow-md shadow-[#CDCDCD]">
+    <nav
+      className="flex justify-between items-center p-6 bg-[#192428] shadow-md shadow-[#CDCDCD]
+    sticky top-0 z-10"
+    >
       <Link href="/">
         <button className="p-4 font-bold rounded-lg bg-[#738290]  text-3xl text-[#08090A] hover:text-opacity-70">
           Hometown Gigs
