@@ -9,7 +9,7 @@ const ShowsSection = () => {
   return (
     <div className="bg-[#121212] p-6 rounded-xl">
       <div className="flex items-end justify-between mb-11">
-        <h2 className="text-white text-2xl font-bold">Shows</h2>
+        <h2 className="text-white text-2xl font-bold">Upcoming Shows</h2>
         <Link href="/shows">
           <h3 className="text-white">See All</h3>
         </Link>
