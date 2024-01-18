@@ -2,11 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-3/4 m-auto p-11">
+    <div className="w-full md:w-3/4 m-auto p-11">
       <section>
-        <h1 className=" font-bold text-center">About Hometown Gigs</h1>
-        <p className="text-white mt-6 text-xl font-thin">
-          <span className="text-white font-normal">
+        <h1 className=" font-bold text-center text-3xl md:text-5xl">
+          About Hometown Gigs
+        </h1>
+        <p className="text-md text-white mt-8 md:text-xl font-thin">
+          <span className="text-xl text-white font-normal">
             Welcome to Hometown Gigs –
           </span>{" "}
           the heartbeat of your local music scene! We are not just a music site;
@@ -19,8 +21,8 @@ const About = () => {
       </section>
 
       <section className="mt-8">
-        <h2>Our Vision</h2>
-        <p className="text-white mt-6 text-xl font-thin">
+        <h2 className="text-2xl md:text-3xl">Our Vision</h2>
+        <p className="text-md text-white mt-2 md:text-xl font-thin">
           Hometown Gigs was born out of a love for live music and the desire to
           enrich local communities with the magic that happens on stage. We
           envision a world where every town pulses with the energy of live
@@ -29,8 +31,8 @@ const About = () => {
         </p>
       </section>
       <section className="mt-8">
-        <h2>Bridging Communities</h2>
-        <p className="text-white mt-6 text-xl font-thin">
+        <h2 className="text-2xl md:text-3xl">Bridging Communities</h2>
+        <p className="text-md text-white mt-2 md:text-xl font-thin">
           Our platform serves as a bridge, connecting venues with talented
           artists and providing a stage for performers to showcase their skills.
           We believe that the synergy between venues and artists is crucial for
@@ -40,8 +42,8 @@ const About = () => {
         </p>
       </section>
       <section className="mt-8">
-        <h2>Amplifying Creativity</h2>
-        <p className="text-white mt-6 text-xl font-thin">
+        <h2 className="text-2xl md:text-3xl">Amplifying Creativity</h2>
+        <p className="text-md text-white mt-2 md:text-xl font-thin">
           We recognize the invaluable contributions of photographers, recording
           engineers, and producers to the music industry. Hometown Gigs is not
           just about the live moment; it's about preserving and amplifying the
@@ -51,8 +53,8 @@ const About = () => {
         </p>
       </section>
       <section className="mt-8">
-        <h2>Discover, Listen, Attend</h2>
-        <p className="text-white mt-6 text-xl font-thin">
+        <h2 className="text-2xl md:text-3xl">Discover, Listen, Attend</h2>
+        <p className="text-md text-white mt-2 md:text-xl font-thin">
           Are you tired of missing out on incredible shows in your area?
           Hometown Gigs has you covered! Our platform allows you to discover
           upcoming gigs near you, listen to the sounds of local talent, and
@@ -63,8 +65,10 @@ const About = () => {
         </p>
       </section>
       <section className="mt-8">
-        <h2>Join the Hometown Gigs Community</h2>
-        <p className="text-white mt-6 text-xl font-thin">
+        <h2 className="text-2xl md:text-3xl">
+          Join the Hometown Gigs Community
+        </h2>
+        <p className="text-md text-white mt-2 md:text-xl font-thin">
           Become a part of the Hometown Gigs community and embark on a journey
           to revitalize your local music scene. Support your favorite artists,
           explore new sounds, and connect with fellow music lovers who share
@@ -77,7 +81,7 @@ const About = () => {
         <h3 className="text-3xl font-bold text-white text-center">
           - Hometown Gigs –
         </h3>
-        <p className="text-3xl font-bold text-white text-center mt-3">
+        <p className="text-xl md:text-2xl font-bold text-white text-center mt-3">
           Where the heart of the music beats in every hometown!
         </p>
       </section>
