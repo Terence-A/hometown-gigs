@@ -9,11 +9,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className="flex flex-wrap  justify-between items-center p-6 bg-[#192428] shadow-md shadow-[#CDCDCD]
+      className="flex flex-wrap  justify-between items-center p-6 bg-[#121212] shadow-sm shadow-[#CDCDCD]
     sticky top-0 z-10"
     >
       <Link href="/">
-        <button className="p-4 font-bold rounded-lg bg-[#738290]  text-3xl text-[#08090A] hover:text-opacity-70">
+        <button className="p-4 font-bold rounded-lg   text-2xl text-[#738290] border border-[#CDCDCD] hover:text-opacity-70 hover:border-opacity-70 hover:bg-opacity-70">
           Hometown Gigs
         </button>
       </Link>
@@ -54,9 +54,9 @@ const Navbar = () => {
           </button>
         )}
       </div>
-      <div className="menu hidden md:block md:w-2/3">
-        <div className="flex w-full justify-between items-center">
-          <ul className="flex p-4 text-xl">
+      <div className="menu hidden md:block md:w-2/3 ">
+        <div className="flex w-full justify-between p items-center">
+          <ul className="flex  text-lg">
             <li className=" text-[#CDCDCD] hover:text-[#E5E5E5]">
               <Link href="/music">Music</Link>
             </li>
@@ -67,14 +67,14 @@ const Navbar = () => {
               <Link href="/artistry">Artistry</Link>
             </li>
             <li className="ml-6 text-[#CDCDCD] hover:text-[#E5E5E5]">
-              <Link href="/contact">Contact Us</Link>
+              <Link href="/contact">Contact</Link>
             </li>
             <li className="ml-6 text-[#CDCDCD] hover:text-[#E5E5E5]">
               <Link href="/about">About</Link>
             </li>
           </ul>
           <Link href="/login">
-            <button className="text-lg font-semibold text-[#738290] hover:text-[#E5E5E5]">
+            <button className="text-lg font-semibold text-white bg-[#272a63] rounded-full py-1 px-3 hover:text-[#e7dfdf] ">
               Login
             </button>
           </Link>
