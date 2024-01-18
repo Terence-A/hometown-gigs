@@ -13,7 +13,7 @@ const Navbar = () => {
     sticky top-0 z-10"
     >
       <Link href="/">
-        <button className="p-4 font-bold rounded-lg   text-2xl text-[#738290] border border-[#CDCDCD] hover:text-opacity-70 hover:border-opacity-70 hover:bg-opacity-70">
+        <button className="p-3 font-bold rounded-lg   text-2xl text-white border border-[#CDCDCD] hover:bg-[#474973]  ">
           Hometown Gigs
         </button>
       </Link>
@@ -55,8 +55,8 @@ const Navbar = () => {
         )}
       </div>
       <div className="menu hidden md:block md:w-2/3 ">
-        <div className="flex w-full justify-between p items-center">
-          <ul className="flex  text-lg">
+        <div className="flex w-full justify-between  items-center">
+          <ul className="flex  text-lg lg:text-2xl">
             <li className=" text-[#CDCDCD] hover:text-[#E5E5E5]">
               <Link href="/music">Music</Link>
             </li>
@@ -74,7 +74,7 @@ const Navbar = () => {
             </li>
           </ul>
           <Link href="/login">
-            <button className="text-lg font-semibold text-white bg-[#272a63] rounded-full py-1 px-3 hover:text-[#e7dfdf] ">
+            <button className="text-lg font-semibold text-white bg-[#272a63] rounded-full py-1 px-3 hover:text-[#e7dfdf] hover:bg-opacity-90 ">
               Login
             </button>
           </Link>
