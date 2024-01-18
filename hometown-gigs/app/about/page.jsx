@@ -10,7 +10,7 @@ const About = () => {
         <p className="text-md text-white mt-8 md:text-xl font-thin">
           <span className="text-xl text-white font-normal">
             Welcome to Hometown Gigs –
-          </span>{" "}
+          </span>
           the heartbeat of your local music scene! We are not just a music site;
           we are a passionate community dedicated to fostering the vibrant
           ecosystem of live music. At Hometown Gigs, our mission is to bring
@@ -46,7 +46,7 @@ const About = () => {
         <p className="text-md text-white mt-2 md:text-xl font-thin">
           We recognize the invaluable contributions of photographers, recording
           engineers, and producers to the music industry. Hometown Gigs is not
-          just about the live moment; it's about preserving and amplifying the
+          just about the live moment. Its about preserving and amplifying the
           creativity that flows on and off the stage. We support the creation of
           high-quality photos and recordings that capture the essence of each
           performance, providing lasting memories for both artists and fans.
@@ -59,7 +59,7 @@ const About = () => {
           Hometown Gigs has you covered! Our platform allows you to discover
           upcoming gigs near you, listen to the sounds of local talent, and
           never miss another opportunity to witness a fantastic live
-          performance. Whether you're a seasoned music enthusiast or a casual
+          performance. Whether your a seasoned music enthusiast or a casual
           listener, Hometown Gigs makes it easy to stay connected to the pulse
           of your local music scene.
         </p>
@@ -72,7 +72,7 @@ const About = () => {
           Become a part of the Hometown Gigs community and embark on a journey
           to revitalize your local music scene. Support your favorite artists,
           explore new sounds, and connect with fellow music lovers who share
-          your passion. Together, let's turn every gig into an unforgettable
+          your passion. Together, lets turn every gig into an unforgettable
           experience and make our hometowns resonate with the sweet melodies of
           live music.
         </p>

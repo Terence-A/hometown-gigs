@@ -12,7 +12,7 @@ export default function Home() {
     <main>
       <section className="flex justify-center mt-10 items-center ">
         <span>
-          <h2 className="text-white text-[2em] mr-3">Welcome {""}</h2>
+          <h2 className="text-white text-2xl md:text-3xl mr-3">Welcome {""}</h2>
         </span>
         <BannerAnimation />
       </section>

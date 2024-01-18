@@ -5,7 +5,7 @@ const BannerAnimation = () => {
   return (
     <div>
       <TypeAnimation
-        className="text-white "
+        className="text-white text-2xl md:text-3xl "
         sequence={[
           // Same substring at the start will only be typed out once, initially
           ` Band Members!`,
@@ -25,7 +25,7 @@ const BannerAnimation = () => {
         ]}
         wrapper="span"
         speed={50}
-        style={{ fontSize: "2em", display: "inline-block" }}
+        style={{ display: "inline-block" }}
         repeat={3}
       />
     </div>
