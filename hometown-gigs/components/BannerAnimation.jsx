@@ -20,11 +20,13 @@ const BannerAnimation = () => {
           1000,
           " Producers!",
           1000,
+          " to Hometown Gigs",
+          1000,
         ]}
         wrapper="span"
         speed={50}
         style={{ fontSize: "2em", display: "inline-block" }}
-        repeat={Infinity}
+        repeat={3}
       />
     </div>
   );
